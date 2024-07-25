@@ -1,0 +1,160 @@
+
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar li{
+    margin-left: 40px;
+    list-style: none;
+}
+
+.nav-bar img{
+    width: 80px;
+    height: 40px;
+}
+
+.nav-bar li input{
+    width: 130px;
+    height: 26px;
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 16px;
+}
+
+
+.button1{
+    border-left: none;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    height: 31px;
+
+}
+
+.dark{
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.btn,.btn1,.btn2{
+    height: 38px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+}
+ul button:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+.btn{
+    margin-left: 70px;
+    width: 100px;
+}
+
+.btn1{
+    margin-left: 10px;
+    width: 100px;
+}
+
+.btn2{
+    width: 140px;
+    margin-left: 10px;
+}
+
+.acc{
+    position: relative;
+    margin-left: 30px;
+}
+
+.acc button{
+    
+    border: none;
+    border-radius: 30px;
+    height: 38px;
+}
+
+.button2{
+    position: absolute;
+    width: 80px;
+    background-color:  rgb(29, 165, 29);
+    color: white;
+}
+
+.button3{
+    background-color: none;
+    width: 150px;
+    padding-left: 80px;
+}
+
+.button3:hover{
+    background-color: rgb(29, 165, 29);
+    color: white;
+}
+
+.icon{
+    color: rgb(91, 32, 155);
+    margin-right: 7px;
+}
+.nav-bar-2{
+    background-color:rgb(27, 28, 35);
+    color: rgb(239, 239, 239);
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.nav-bar-2 ul{
+    display: flex;
+}
+
+.nav-bar-2 li{
+    margin-right: 20px;
+    list-style: none;
+    font-size: 12px;
+}
+
+
+.Hero{
+    background-color: rgb(27, 28, 35);
+    color: white;
+    height: 430px;
+    padding-top: 90px;
+}
+
+.Hero h1{
+font-size: 70px;
+line-height: 30px;
+}
+
+.Hero h4{
+    font-size: 20px;
+    color: rgb(221, 221, 121);
+}
+.Hero input{
+    width: 380px;
+    height: 35px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.Hero button{
+    width: 100px;
+    height: 37px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: rgb(24, 146, 65);
+    color: white;
+}
+
+.Hero a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 80px;
+}
